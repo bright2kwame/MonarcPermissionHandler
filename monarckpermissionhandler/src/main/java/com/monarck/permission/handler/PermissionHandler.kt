@@ -7,6 +7,7 @@ import android.support.annotation.RequiresApi
 import android.support.v4.app.ActivityCompat
 import android.support.v4.content.ContextCompat
 import android.support.v7.app.AppCompatActivity
+import java.util.*
 
 
 class PermissionHandler(var activity: Activity) : AppCompatActivity() {
@@ -44,7 +45,7 @@ class PermissionHandler(var activity: Activity) : AppCompatActivity() {
 
         //MARK: empty permission list
         if (permissions.isEmpty()){
-           permissionCallBack?.permissionRequestError("You have to request atleast one permission")
+           permissionCallBack?.permissionRequestError("You have to request at least one permission")
         }
 
         for (permission in permissions) {
