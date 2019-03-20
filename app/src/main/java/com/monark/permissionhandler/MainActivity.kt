@@ -16,7 +16,7 @@ class MainActivity : AppCompatActivity() {
         permission.add(android.Manifest.permission.WRITE_EXTERNAL_STORAGE)
 
         PermissionHandler(this).askPermission(permission, object : PermissionCallBack {
-            override fun onPermissionCancelledError() {
+            override fun onPermissionCancelled() {
                 TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
             }
 

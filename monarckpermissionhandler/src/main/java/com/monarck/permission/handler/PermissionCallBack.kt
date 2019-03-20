@@ -7,7 +7,7 @@ import java.util.*
  * Created by Monarchy on 08/10/2017.
  */
 interface PermissionCallBack {
-    fun onPermissionCancelledError()
+    fun onPermissionCancelled()
 
     fun onPermissionDenied()
 
