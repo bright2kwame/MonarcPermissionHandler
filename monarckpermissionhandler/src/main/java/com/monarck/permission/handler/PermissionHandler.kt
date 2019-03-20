@@ -10,7 +10,7 @@ import android.support.v7.app.AppCompatActivity
 import java.util.*
 
 
-class PermissionHandler(var activity: Activity) : AppCompatActivity() {
+class PermissionHandler(private var activity: Activity) : AppCompatActivity() {
     //MARK: requesting permission code
     private var permissionRequestCode = 100
     //MARK: all permissions requested for for
