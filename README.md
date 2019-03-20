@@ -9,7 +9,7 @@ Follow this tep to call the library
 import com.monarc.permissionhandler.PermissionCallBack
 import com.monarc.permissionhandler.PermissionHandler
 
-# The use as follow
+# Then use as follow
 val permission = ArrayList<String>()
         permission.add(android.Manifest.permission.WRITE_EXTERNAL_STORAGE)
 
