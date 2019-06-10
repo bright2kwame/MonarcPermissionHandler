@@ -17,5 +17,8 @@ interface PermissionCallBack {
 
     fun onPermissionsDenied(permissions: ArrayList<String>)
 
+
+
+
     fun permissionRequestError(error: String)
 }
